@@ -76,7 +76,7 @@ public class ProductAdapter extends RecyclerView.Adapter<ProductAdapter.ViewHold
 
     public class ViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
 
-        ImageView productImage;
+       private ImageView productImage;
         TextView productName;
         TextView productPrice;
         TextView description;
